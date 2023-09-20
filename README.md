@@ -21,7 +21,7 @@ This project is a clone of a dashboard user interface designed to showcase UI de
 
 ## Demo
 
-You can check out the live demo of this UI Clone [here]([https://ui-clone-dashboard.vercel.app/](https://ui-clone-dashboard.vercel.app/)).
+You can check out the live demo of this UI Clone [here](https://ui-clone-dashboard.vercel.app/).
 
 ## Setup
 
