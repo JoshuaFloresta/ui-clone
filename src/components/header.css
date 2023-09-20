@@ -1,0 +1,66 @@
+
+.header{
+  background-color: #1976D2;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: relative;
+}
+
+.burger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none; 
+    color: white;
+    padding-left: -5px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    padding: 5px;
+    gap: 50px;
+  }
+  
+  .hamburger {
+    vertical-align: middle;
+  }
+  
+  .header p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  
+  .notif-counter{
+    margin-left: auto;
+
+  }
+
+  .notif-counter span{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color:#9C27B0 ;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 30px;
+    font-size: 10px;
+  }
+
+  .notif-counter {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none; 
+    color: white;
+  }
+
+  .notif-icon{
+    margin-right: 8px;
+  }

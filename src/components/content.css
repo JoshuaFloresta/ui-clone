@@ -1,0 +1,144 @@
+.container {
+    margin: auto;
+    margin-top:10px;
+    display: grid;
+    grid-gap: 25px;
+    position: absolute;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr 1fr; 
+      left: 80px; 
+      width: 80%; 
+    }
+
+    .item-1 {
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+        grid-column: span 2;
+
+      }
+      .item-2 {
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+        width: auto;
+        grid-column: span 2;
+      }
+      
+    
+      .item-3 {
+        padding: 10px;
+        padding-bottom: 30px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+        grid-column: span 2;
+      } 
+      #deposit a {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        color: rgb(25,118,210);
+      }
+      
+  }
+
+  @media (min-width: 769px) {
+    .container{
+        left: 200px;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .item-1 {
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+        width: auto;
+        grid-column: span 1;
+
+      }
+      .item-2 {
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+    
+      .item-3 {
+        padding: 10px;
+        padding-bottom: 30px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-sizing: border-box;
+        grid-column: span 2;
+      } 
+
+      .chart-container {
+        display: flex;
+        width: 100%;
+        min-width: 800px;
+      }
+
+      #deposit a {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 100px; 
+        color: rgb(25,118,210);
+      }
+      
+  }
+ 
+  .container h3 {
+    color: rgb(25, 118, 210);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+
+  .chart-container {
+    display: flex;
+  }
+  
+  #sales {
+    transform: rotate(-90deg);
+    white-space: nowrap; /* Corrected the property name */
+    margin: 0;
+    height: 0;
+    margin: auto;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  #deposit {
+    margin-left: 10px;
+  }
+  
+  #deposit h1 {
+    font-size: 33px;
+    font-weight: 400;
+    color: black;
+    margin-top: -10px;
+  }
+  
+  #deposit p {
+    color: rgb(102, 102, 102);
+    margin-top: -10px;
+  }
+  
